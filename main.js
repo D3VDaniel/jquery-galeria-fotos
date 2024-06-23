@@ -7,7 +7,7 @@ $(document).ready(function(){
         $('form').slideUp();
     })
 
-    $('form').on('submit', function(){ 
+    $('form').on('submit', function(e){ 
         e.preventDefault();
         const enderecoDaNovaImagem = $('#endereço-imagem-nova').val();
         const novoItem = $('<li style="display: none"></li>');
