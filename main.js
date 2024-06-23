@@ -16,10 +16,11 @@ $(document).ready(function(){
             <div class="overlay-imagem-link">
                 <a href="${enderecoDaNovaImagem}" target="_blank" title="Ver Imagem em Tamanho Real">
                     Ver Imagem em Tamnho Real
+                </a>
             </div>
         `).appendTo(novoItem);
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn(1000);
-        $('#endereco-imagem-nova').val('');
+        $('#endereço-imagem-nova').val('')
     }) 
 })
